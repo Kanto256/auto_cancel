@@ -36,7 +36,7 @@ def login(driver,n):
                 driver_log = driver_log + str(dt_now) + "   driver_" + str(n) + " 503 ERROR(login)\n"
                 return driver_log, flag
             else:
-                if user_name.text != "福浜　幹人 様":
+                if user_name.text != "高専太郎 様":
                     dt_now = datetime.datetime.now()
                     driver_log = driver_log + str(dt_now) + "   driver_" + str(n) + " 503 ERROR(login)\n"
                     return driver_log, flag

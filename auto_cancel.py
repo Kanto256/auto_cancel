@@ -133,9 +133,9 @@ driver_3.quit()
 
 host = 'smtp.gmail.com'
 port = 587
-f_email = 'nakatakennta4@gmail.com'
-t_email = 'ic191237@edu.okinawa-ct.ac.jp'
-password = 'a01s01k01'
+f_email = '********@gmail.com'
+t_email = '******@*****'
+password = '*********'
 
 msg = message.EmailMessage()
 
