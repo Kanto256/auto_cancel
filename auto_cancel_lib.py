@@ -19,9 +19,9 @@ def login(driver,n):
         try:
             WebDriverWait(driver, 15).until(EC.presence_of_all_elements_located)
             id_box = driver.find_element(By.XPATH,"/html/body/form/div/input[1]")
-            id_box.send_keys("2220153")
+            id_box.send_keys("USERID")
             pw_box = driver.find_element(By.XPATH,"/html/body/form/div/input[2]")
-            pw_box.send_keys("031008")
+            pw_box.send_keys("PASSWORD")
             pw_box.submit()
         except Exception as e:
             dt_now =datetime.datetime.now()
